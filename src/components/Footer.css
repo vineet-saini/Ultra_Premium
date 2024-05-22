@@ -1,0 +1,47 @@
+.footer{
+    height: 50vh;
+    max-width: 25%;
+}
+.aboutfooter{
+    width: 100%;
+}
+
+
+.up-logo{
+    color: purple;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.up-logo p{
+    margin-inline: 2vw;
+}
+
+.up-logo span{
+    color: blue;
+}
+.psdfooter{
+    text-align: center;
+}
+
+.footerlorem{
+    width: 18vw;
+    padding: 10%;
+    padding-left: 0%;
+    line-height: 1.8;
+}
+.links{
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        width: 40%;
+    }
+    .footerlorem{
+        width: 90vw;
+    }
+    .links{
+        width: 90vw;
+    }
+}

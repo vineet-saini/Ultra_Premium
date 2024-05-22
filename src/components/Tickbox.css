@@ -1,0 +1,47 @@
+.tickbox{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    padding: 15vh;
+}
+.loremtick{
+    font-size: 20px;
+    text-align: left;
+    background-color: rgb(234, 219, 219);
+    padding: 5%;
+}
+.blankbox{
+    width: 50%;
+    background: gray;
+}
+.ticks{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    padding: 20px 0px  20px 0px;
+    height: fit-content;
+    background-color: rgb(234, 219, 219);
+}
+.tick{
+    display: flex;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    margin-right: 25px;
+}
+.tick img{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    margin-inline: 20px;
+}
+.tick img:hover{
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .tickbox{
+        margin-top: 25%;
+        height: 80vh;
+    }
+}

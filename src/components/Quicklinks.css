@@ -1,0 +1,18 @@
+.linkslist ul{
+    margin-top: 33%;
+    list-style: none;
+    line-height: 1.8;
+}
+@media screen and (max-width: 768px) {
+    .rightfooter{
+        height: 0;
+    }
+    .quicklinks{
+        margin-top: 40px;
+        height: 2%;
+    }
+    .linkslist{
+        margin-top: -90px;
+        max-height: 0px;
+    }
+}

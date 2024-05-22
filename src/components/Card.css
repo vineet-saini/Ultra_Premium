@@ -1,0 +1,10 @@
+.card {
+    width: 20vw;
+    height: 5vh;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+ }
+ .card img{
+    margin-bottom: 10%;
+ }

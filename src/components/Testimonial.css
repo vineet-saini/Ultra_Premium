@@ -1,0 +1,13 @@
+.clientbox{
+    text-align: center;
+    background-color: rgb(83, 83, 205);
+    color: white;
+}
+.test{
+    padding: 2%;
+    font-size: 20px;
+}
+.whatsays{
+    font-size: 50px;
+    padding-bottom: 4%;
+}
